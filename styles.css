@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    Background: white;
+    font-style: Verdana, sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    
+  }
+  .container {
+    background-color: rgb(226, 219, 219);
+    padding-bottom: 20px;
+  }
+  
+  p, h1 {
+    text-align: center;
+  }
+  h1{
+    font-size: 50px;
+    padding: 30px 0 0 5px;
+  }
+  
+  #img-div {
+    background-color: white;
+    margin: 10px auto;
+    padding: 3px;
+    width: 98%;
+    
+  }
+  
+  #image {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    
+  
+  }
+  .content {
+    width: 60%;
+    height: auto;
+    text-align: left;
+    display: block;
+    margin: 10px auto;
+  }
+  .content, .part1,  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  }
+  
+  #img-caption{
+  
+  }
+  
+  #tribute-info{
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  ul {
+    padding: 5px;
+  }
+  
+  li {
+    padding: 5px
+  }
+  
+  footer {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 20px;
+  }
+  
+  section > p {
+    text-align: left;
+  }
